@@ -1,30 +1,40 @@
+// CSS Styles
 import "./Header.css"
+
+// Logo
 import Logo from "../assets/dark-logo.svg"
+
+// Toggle Light Button
 import toggle from "../assets/toggle-off.svg"
+
+// React Hooks
+import { useState } from "react"
 
 const Header = () => {
 
-  return (
+    // const [lightOn, setLightOn] = useState(true)
 
-    <header className="header--container">
-        <div>
-            <img src={Logo} alt="logo" />
-        </div>
+    return (
 
-        <nav className="header--container__nav">
-            <ul className="header--container__nav__list">
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Github</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact Me</a></li>
-            </ul>
-            <button className="header--container__nav__button">
-                <img src={toggle}/>
-            </button>
-        </nav>
-    </header>
+        <header className="header--container">
+            <div>
+                <img src={Logo} alt="logo" />
+            </div>
 
-  )
+            <nav className="header--container__nav">
+                <ul className="header--container__nav__list">
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Github</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact Me</a></li>
+                    <button className="header--container__nav__button">
+                        <img src={toggle} />
+                    </button>
+                </ul>
+            </nav>
+        </header>
+
+    )
 
 }
 

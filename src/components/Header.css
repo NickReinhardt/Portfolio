@@ -1,6 +1,9 @@
+/* General Header */
+
 .header--container {
     display: flex;
     justify-content: space-between;
+    padding: 2em 3em;
 }
 
 .header--container__nav {
@@ -12,6 +15,7 @@
     display: flex;
     gap: 20px;
     margin-right: 20px;
+    align-items: center;
 }
 
 .header--container__nav__button {
@@ -19,7 +23,14 @@
     background-color: var(--light-background);
 }
 
-.header--container__nav__button img  {
+.header--container__nav__button img {
     width: 30px;
-    height: 30px;
+
+    align-items: center;
+}
+
+/* list items */
+.header--container__nav__list a {
+    color: var(--dark-text);
+    font-size: 1.5em;
 }
