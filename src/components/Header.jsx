@@ -4,12 +4,6 @@ import "./Header.css"
 // Logo
 import Logo from "../assets/dark-logo.svg"
 
-// Toggle Light Button
-import toggle from "../assets/toggle-off.svg"
-
-// React Hooks
-import { useState } from "react"
-
 const Header = () => {
 
     // const [lightOn, setLightOn] = useState(true)
@@ -23,13 +17,10 @@ const Header = () => {
 
             <nav className="header--container__nav">
                 <ul className="header--container__nav__list">
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Github</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact Me</a></li>
-                    <button className="header--container__nav__button">
-                        <img src={toggle} />
-                    </button>
+                    <li><a className="nav__list--item" href="#">Portfolio</a></li>
+                    <li><a className="nav__list--item" href="#">Github</a></li>
+                    <li><a className="nav__list--item" href="#">About</a></li>
+                    <li><a className="nav__list--item" href="#">Contact Me</a></li>
                 </ul>
             </nav>
         </header>

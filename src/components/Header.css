@@ -2,7 +2,8 @@
 
 .header--container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    gap: 42em;
     padding: 2em 3em;
 }
 
@@ -13,24 +14,24 @@
 
 .header--container__nav__list {
     display: flex;
-    gap: 20px;
+    gap: 32px;
     margin-right: 20px;
     align-items: center;
 }
 
-.header--container__nav__button {
-    border: none;
-    background-color: var(--light-background);
-}
-
-.header--container__nav__button img {
-    width: 30px;
-
-    align-items: center;
-}
-
 /* list items */
-.header--container__nav__list a {
+.nav__list--item {
     color: var(--dark-text);
     font-size: 1.5em;
+}
+
+.nav__list--item {
+    padding: 10px 15px;
+    border-radius: 3em;
+}
+
+.nav__list--item:hover {
+    background-color: rgb(93, 224, 170);
+    transition: 200ms all;
+    color: rgb(0, 0, 0);
 }
