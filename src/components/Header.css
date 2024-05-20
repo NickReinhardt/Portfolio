@@ -1,22 +1,18 @@
 /* General Header */
 
-.header--container {
+.header {
     display: flex;
-    justify-content: space-around;
-    gap: 42em;
-    padding: 2em 3em;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 150px;
 }
 
-.header--container__nav {
+.header__nav {
     display: flex;
-    align-items: center;
 }
 
-.header--container__nav__list {
+.header__nav__list {
     display: flex;
-    gap: 32px;
-    margin-right: 20px;
-    align-items: center;
 }
 
 /* list items */

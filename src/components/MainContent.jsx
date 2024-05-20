@@ -8,9 +8,9 @@ const MainContent = () => {
   return (
 
     <section className="container">
-        <div className="container__description">
-            <h1>Hi! My name is Lana</h1>
-            <p>I'm a web front-end developer from Brazil.</p>
+        <div>
+            <h1 className="container--title">Hi! My name is Lana</h1>
+            <p className="container--description">I'm a web front-end developer from Brazil.</p>
         </div>
 
         <div className="container__image">

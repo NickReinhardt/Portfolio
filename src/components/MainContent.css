@@ -1,26 +1,18 @@
 .container {
-    padding: 2em 3em;
     display: flex;
-    text-align: center;
+    justify-content: space-between;
+    padding: 50px 150px;
     align-items: center;
-    justify-content: space-around;
-    margin-top: 5em;
 }
 
-.container__description {
-    
-    gap: 40em;
-}
-
-.container__description h1 {
+.container--title {
     color: var(--dark-text);
     font-size: 60px;
     font-weight: 300;
-
 }
-.container__description p {
+.container--description {
+    width: 500px;
     font-size: 40px;
     color: #544F4F;
-    width: 500px;
     text-align: left;
 }
