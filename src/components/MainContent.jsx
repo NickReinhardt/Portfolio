@@ -1,7 +1,7 @@
 /* Import Image */
 import MainImage from "../assets/main-img.png"
 
-import "./MainContent.css"
+import "../styles/MainContent.css"
 
 const MainContent = () => {
 

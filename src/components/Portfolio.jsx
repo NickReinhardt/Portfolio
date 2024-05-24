@@ -1,5 +1,5 @@
 import projectImg from "../assets/project1.png"
-import './Portfolio.css'
+//import '../styles/Portfolio.css'
 
 const Portfolio = ({preview, title, description, usedLang, githubButton}) => {
 
