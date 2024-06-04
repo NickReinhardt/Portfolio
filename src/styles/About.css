@@ -3,4 +3,14 @@
     justify-content: space-between;
     padding: 50px 150px;
     margin-top: 120px;
+    gap: 400px;
+    align-items: center;
+}
+
+.about--description {
+    width: 50%;
+}
+
+.about--title {
+    font-size: 3rem;
 }
