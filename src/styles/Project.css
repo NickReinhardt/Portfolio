@@ -1,0 +1,6 @@
+.container--projects {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 150px;
+    align-items: center;
+}

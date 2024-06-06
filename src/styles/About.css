@@ -3,12 +3,18 @@
     justify-content: space-between;
     padding: 50px 150px;
     margin-top: 120px;
-    gap: 400px;
+    gap: 100px;
     align-items: center;
 }
 
+/*
 .about--description {
-    width: 50%;
+    
+}
+*/
+
+.about--certificados {
+    align-self: left;
 }
 
 .about--title {
