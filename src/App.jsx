@@ -3,8 +3,8 @@ import './App.css'
 import Header from './components/Header'
 import MainContent from './components/MainContent'
 import About from './components/About'
-import Contact from './components/Contact'
 import Projects from './components/Projects'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -16,7 +16,7 @@ function App() {
       <MainContent />
       <About />
       <Projects />
-      <Contact />
+      <Footer />
     </>
   )
 }

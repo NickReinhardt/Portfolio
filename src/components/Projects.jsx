@@ -11,12 +11,12 @@ const Projects = () => {
                 <img src="" alt="" />
                 <h2>Project A</h2>
                 <p>This is a project made to learn the latest languages by building an app.</p>
-                <li>
+                {/* <li>
                     <li><img src="" alt="" /></li>
                     <li><img src="" alt="" /></li>
                     <li><img src="" alt="" /></li>
                     <li><img src="" alt="" /></li>
-                </li>
+                </li> */}
             </div>
         </div>
     </section>

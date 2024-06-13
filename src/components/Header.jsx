@@ -15,7 +15,7 @@ const Header = () => {
             
             <nav className="header__nav">
                 <ul className="header__nav__list">
-                <li><a className="nav__list--item" href="#">About</a></li>
+                    <li><a className="nav__list--item" href="#">About</a></li>
                     <li><a className="nav__list--item" href="#">Projects</a></li>
                     <li><a className="nav__list--item" href="#">Contact</a></li>
                     <li><a className="nav__list--item" href="#">Github</a></li>

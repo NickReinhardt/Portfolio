@@ -2,9 +2,10 @@
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
-    padding: 50px 150px;
+    margin-top: 30px;
+    padding: 50px 200px;
 }
 
 .header__nav {
@@ -18,7 +19,8 @@
 /* list items */
 .nav__list--item {
     color: var(--dark-text);
-    font-size: 1.5em;
+    font-size: 25px;
+    font-weight: 500;
 }
 
 .nav__list--item {

@@ -1,0 +1,48 @@
+.footer {
+    display: flex;
+    padding: 50px 150px;
+    align-items: center;
+    margin-top: 550px;
+    margin-bottom: 50px;
+}
+
+.footer--left {
+    width: 50%;
+}
+
+.footer--right {
+    width: 50%;
+}
+
+.footer--right li {
+    margin-top: 30px;
+}
+
+.footer h2 {
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.footer p {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.footer img {
+    background-color: black;
+    border-radius: 8px;
+}
+
+.footer ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer--right a {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 30px;
+    font-weight: 400;
+    color: black;
+}

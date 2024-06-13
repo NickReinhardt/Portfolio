@@ -1,5 +1,8 @@
 import "../styles/About.css"
 import SecondImg from  "../assets/second-img.png"
+import Seta from  "../assets/seta.png"
+import Stacks from  "../assets/stacks.png"
+import Computer from  "../assets/computer.png"
 
 const About = () => {
 
@@ -11,10 +14,10 @@ const About = () => {
         <img src={SecondImg} alt="" />
       </div>
 
-        <div className="about--certificados">
-          <div>
+        <div>
+          <div className="about--certificados">
             <div>
-              <img src="" alt="" />
+              <img src={Seta} className="about--certificados--img" />
             </div>
             <div>
               <h2>Frontend Developer</h2>
@@ -22,9 +25,9 @@ const About = () => {
             </div>
           </div>
 
-          <div>
+          <div className="about--certificados"> 
             <div>
-              <img src="" alt="" />
+              <img src={Computer} className="about--certificados--img" />
             </div>
             <div>
               <h2>Backend Developer</h2>
@@ -32,9 +35,9 @@ const About = () => {
             </div>
           </div>
 
-          <div>
+          <div className="about--certificados">
             <div>
-              <img src="" alt="" />
+              <img src={Stacks} className="about--certificados--img" />
             </div>
             <div>
               <h2>UI/UX Developer</h2>
