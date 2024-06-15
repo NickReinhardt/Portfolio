@@ -1,49 +1,53 @@
-.container {
+/* Main page css */
+.main-container {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     padding: 50px 200px;
-    margin-top: 50px;
-    align-items: center;
+    margin: 50px 0 150px 0;
 }
 
-.container__text {
+/* main text */
+.text__container {
     display: flex;
-    flex-direction: column;
-    gap: 30px;
+    flex-direction: column; 
     align-items: flex-start;
+    gap: 30px;
 }
 
-.container--title {
+.text__title {
     color: var(--dark-text);
     font-size: 72px;
     font-weight: 600;
 }
 
-.container--description {
+.text__description {
     width: 500px;
     font-size: 40px;
     color: #544F4F;
     text-align: left;
 }
 
+/* call to action button */
 .call-to-action {
     font-size: 30px;
     font-weight: 600;
-    
     border: none; 
     border-radius: 3em;
-
     margin: 30px 0;
     padding: 20px 30px;
-    
-
     cursor: pointer;
     transition: 150ms ease-in-out;
-
     color: #ffffff;
     background-color: rgb(93, 224, 170);
 }
 
 .call-to-action:hover {
     background-color: rgb(36, 201, 132);
+}
+
+/* main image */
+.main__img {
+    border-radius: 50%;
+    width: 450px;
 }

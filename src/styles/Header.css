@@ -1,4 +1,4 @@
-/* General Header */
+/* Header */
 
 .header {
     display: flex;
@@ -6,29 +6,43 @@
     align-items: center;
     margin-top: 30px;
     padding: 50px 200px;
+    color: var(--dark-text);
 }
 
+/* Header Title */
+.header__title {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+/* Header Nav */
 .header__nav {
     display: flex;
 }
 
 .header__nav__list {
     display: flex;
+    gap: 1.5em;
+}
+
+/* github external link icon */
+.header__nav__share {
+    width: 25px;
+    margin-left: 10px;
+    text-align: center;
 }
 
 /* list items */
-.nav__list--item {
+.nav__list__item {
     color: var(--dark-text);
     font-size: 25px;
     font-weight: 500;
-}
-
-.nav__list--item {
-    padding: 10px 15px;
+    padding: 10px 20px;
     border-radius: 3em;
 }
 
-.nav__list--item:hover {
+/* list item hover */
+.nav__list__item:hover {
     background-color: rgb(93, 224, 170);
     transition: 200ms all;
     color: rgb(0, 0, 0);

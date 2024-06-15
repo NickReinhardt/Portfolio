@@ -4,7 +4,7 @@ const Projects = () => {
 
   return (
 
-    <section className='container--projects'>
+    <section id='projects' className='container--projects'>
         <h2>Projects</h2>
         <div>
             <div>

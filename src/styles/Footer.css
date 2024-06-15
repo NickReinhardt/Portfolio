@@ -1,44 +1,42 @@
 .footer {
     display: flex;
-    padding: 50px 150px;
+    padding: 50px 200px;
     align-items: center;
     margin-top: 550px;
-    margin-bottom: 50px;
 }
 
-.footer--left {
+.footer__hero {
     width: 50%;
 }
 
-.footer--right {
-    width: 50%;
-}
-
-.footer--right li {
-    margin-top: 30px;
-}
-
-.footer h2 {
+.footer__title {
     font-size: 80px;
     font-weight: 700;
 }
 
-.footer p {
+.footer__paragraph {
     font-size: 40px;
     font-weight: 400;
 }
 
-.footer img {
-    background-color: black;
-    border-radius: 8px;
+.footer__contact {
+    width: 50%;
 }
 
-.footer ul {
+.footer img {
+    width: 50px;
+}
+
+.footer__contact__list {
     display: flex;
     flex-direction: column;
 }
 
-.footer--right a {
+.footer__contact__list__item {
+    margin-top: 30px;
+}
+
+.list__item__link {
     display: flex;
     align-items: center;
     gap: 20px;
